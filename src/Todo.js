@@ -55,7 +55,7 @@ export default function Todo() {
     return (
         <div className="todo-app">
             <div>
-                <h1>My Todo WebApp</h1>
+                <h1>What's Your Plan today....</h1>
                 
                 <input id="task" className="todo-input" value={InputData} onChange={(event)=> SetInputData(event.target.value)} type="text" placeholder="✍ Add item to your list"/>
                 { 
