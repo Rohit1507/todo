@@ -82,7 +82,7 @@ export default function Todo() {
                
            
             <div>
-                <button className="todo-button" onClick={()=>SetItems([])}>Remove all</button>
+                <button className="todo-button" onClick={()=>SetItems([])}>Clear all</button>
             </div>
             </div>
     )
